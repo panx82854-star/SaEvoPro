@@ -86,29 +86,6 @@ EvolvePro: https://github.com/mat10d/EvolvePro
 ---
 
 
-
-
-Clone this repository:
-
-```bash
-git clone https://github.com/panx82854-star/SaEvoPro.git
-cd SaEvoPro
-```
-
-Install the Python environment using the provided environment file:
-
-```bash
-conda env create -f environment.yml
-conda activate saevopro
-pip install -e .
-```
-
-SaEvoPro relies on several external protein-modeling and protein-language-model tools. These tools should be installed separately according to their official instructions.
-
----
-
-
-
 ## Acknowledgements
 
 SaEvoPro was developed by extending the active-learning concept and implementation provided by **EvolvePro** and by incorporating structure-aware protein representations from **SaProt**.
@@ -119,21 +96,7 @@ We strongly encourage users of SaEvoPro to cite the original publications associ
 
 ---
 
-## Data availability
 
-The 21 DMS datasets used for benchmarking are publicly available from their original publications and repositories. The identities and references of these datasets are provided in the Supplementary Information of the associated manuscript.
-
-Experimental ErFCR measurements supporting this study are provided in the associated manuscript and Supplementary Information.
-
----
-
-## Code availability
-
-The SaEvoPro source code and related analysis scripts are provided in this repository:
-
-**https://github.com/panx82854-star/SaEvoPro**
-
----
 
 ## Citation
 
