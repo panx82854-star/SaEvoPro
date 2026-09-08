@@ -4,14 +4,14 @@ from evolvepro.src.evolve import evolve_experimental, evolve_experimental_multi
 protein_name = 'zika'
 embeddings_base_path = '/mnt/data/EvolvePro-main/data_embeddings/zika_saprot_650M_PDB.csv'
 embeddings_file_name = 'zika_saprot_650M_PDB.csv'
-round_base_path = '/mnt/data/EvolvePro-main/Process/Zika/round2'
+round_base_path = '/mnt/data/EvolvePro-main/Process/Zika/round'
 wt_fasta_path = "/mnt/data/EvolvePro-main/Process/Zika/dataset_WT.fasta"
 number_of_variants = 16
-output_dir = '/mnt/data/EvolvePro-main/Process/Zika/round10'
+output_dir = '/mnt/data/EvolvePro-main/Process/Zika/round1'
 
 # Single variant
-round_name = 'Round2'
-round_file_names = ['Round2.xlsx']
+round_name = 'Round1'
+round_file_names = ['Round1.xlsx']
 rename_WT = True
 
 evolve_experimental(
