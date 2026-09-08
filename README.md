@@ -82,6 +82,48 @@ External resources:
 
 EvolvePro: https://github.com/mat10d/EvolvePro
 
+### (1) Replace `model.py`
+
+Replace:
+
+```bash
+EvolvePro-main/evolvepro/src/model.py
+```
+
+with the provided customized `model.py`.
+
+---
+
+### (2) Round 0 mutant selection
+
+`first_round.py` is used for global sampling of Round 0 mutants.
+
+```bash
+python first_round.py
+```
+
+It selects representative mutants from the embedding space using the `diverse_medoids` strategy.
+
+---
+
+### (3) Iterative mutation design
+
+`auto_saprot.py` is used for iterative mutant prediction based on SaProt embeddings and experimental fitness data.
+
+```bash
+python auto_saprot.py
+```
+
+---
+
+### (4) DMS model training
+
+`all_datasets_esm15b_cat.sh` is used to train and evaluate the model on 21 DMS datasets.
+
+```bash
+bash all_datasets_esm15b_cat.sh
+```
+
 
 ---
 
